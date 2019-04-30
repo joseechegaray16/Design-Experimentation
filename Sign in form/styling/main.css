@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(../media/infrared.jpg);
+    background-size: cover;
+}
+
+.enter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+h2 {
+    font-family: Lucida Sans;
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+}
+
+input {
+    opacity: 0.5;
+    display: block;
+    width: 320px;
+    height: 50px;
+    border: 1px solid;
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+button {
+    width: 330px;
+    height: 50px;
+    font-size: 20px;
+    background: #345;
+    border: 0px;
+    border-radius: 5px;
+}
