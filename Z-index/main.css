@@ -1,0 +1,173 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+img {
+    height: 30%;
+    width: 30%;
+}
+
+.hero {
+    font-size: 65px;
+    background: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.letter {
+    position: absolute;
+    color: white;
+}
+
+.letter:nth-child(1) {
+    z-index: 5;
+    margin: 0px;
+    transition: 2s;
+}
+
+.letter:nth-child(2) {
+    z-index: 4;
+    margin: 25px;
+    transition: 3s;
+}
+
+.letter:nth-child(3) {
+    z-index: 3;
+    margin: 50px;
+    transition: 5s;
+}
+
+.letter:nth-child(4) {
+    z-index: 2;
+    margin: 70px;
+    transition: 6s;
+}
+
+.letter:nth-child(5) {
+    z-index: 1;
+    margin: 90px;
+    transition: 7s;
+}
+
+.btn {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 35px;
+    margin-right: 65px;
+}
+
+.btnrepeat {
+    background: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 35px;
+    margin-left: 100px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.slide-in-blurred-tr {
+	-webkit-animation: slide-in-blurred-tr 8s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	        animation: slide-in-blurred-tr 8s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+
+ @-webkit-keyframes slide-in-blurred-tr {
+    0% {
+      -webkit-transform: translate(1000px, -1000px) skew(-80deg, -10deg);
+              transform: translate(1000px, -1000px) skew(-80deg, -10deg);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+      -webkit-filter: blur(40px);
+              filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translate(0, 0) skew(0deg, 0deg);
+              transform: translate(0, 0) skew(0deg, 0deg);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slide-in-blurred-tr {
+    0% {
+      -webkit-transform: translate(1000px, -1000px) skew(-80deg, -10deg);
+              transform: translate(1000px, -1000px) skew(-80deg, -10deg);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+      -webkit-filter: blur(40px);
+              filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translate(0, 0) skew(0deg, 0deg);
+              transform: translate(0, 0) skew(0deg, 0deg);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+
+  .slide-in-blurred-tl {
+	-webkit-animation: slide-in-blurred-tl 8s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	        animation: slide-in-blurred-tl 8s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+
+ @-webkit-keyframes slide-in-blurred-tl {
+    0% {
+      -webkit-transform: translate(-1000px, -1000px) skew(80deg, 10deg);
+              transform: translate(-1000px, -1000px) skew(80deg, 10deg);
+      -webkit-transform-origin: 100% 0%;
+              transform-origin: 100% 0%;
+      -webkit-filter: blur(40px);
+              filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translate(0, 0) skew(0deg, 0deg);
+              transform: translate(0, 0) skew(0deg, 0deg);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-blurred-tl {
+    0% {
+      -webkit-transform: translate(-1000px, -1000px) skew(80deg, 10deg);
+              transform: translate(-1000px, -1000px) skew(80deg, 10deg);
+      -webkit-transform-origin: 100% 0%;
+              transform-origin: 100% 0%;
+      -webkit-filter: blur(40px);
+              filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translate(0, 0) skew(0deg, 0deg);
+              transform: translate(0, 0) skew(0deg, 0deg);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  
+  
